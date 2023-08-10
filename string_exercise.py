@@ -22,7 +22,9 @@ def findMostCommonPrefix(strs: 'list'=[]) -> 'str':
 
     print(f"Most common prefix is: {final}") if final else print("No common prefix found")
 
-
+"""
+Code run
+"""
 findMostCommonPrefix(['hey', 'heya', 'heyo', 'flight', 'flower', 'flow', 'flawless'])
 # findMostCommonPrefix(['','',''])
 # findMostCommonPrefix(['hey','hey','hey'])
